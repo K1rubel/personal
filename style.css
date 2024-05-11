@@ -21,6 +21,12 @@
     background: var(--shapebg);
     border: 1px solid white;
 }
+.f-top{
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+    z-index: 3;
+}
 /* nav bar */
 body{
     font-family: menu;
