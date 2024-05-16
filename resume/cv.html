@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<style>
+    /* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
+  *{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+  }
+    :root{
+        --headerbg: rgb(192, 221, 225);
+        --themecolor: rgb(55, 187, 221);
+        --bodybg:rgb(212, 228, 230);
+    }
+    .header-picture img{
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        border-top-right-radius: 50%;
+        overflow: hidden;
+        border: 10px solid white;
+    }
+    hr{
+        height: 5px;
+    }
+    .contact-detail{
+        border-radius: 10px;
+    }
+    .contact-detail div{
+        padding: 0;
+    }
+    .contact-detail div div{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .contact-detail div div p{
+        margin: 0;
+        font-weight: lighter;
+    }
+    .contact-detail div div p a{
+        text-decoration: none;
+        color: white;
+    }
+    .contact-detail div div i{
+        color: white;
+        font-size: 1.8em;
+    }
+    /* cv profile section */
+    .abs-center{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: var(--themecolor);
+    }
+    .abs-center i{
+        font-size: 1.8rem;
+    }
+    .text-justify{
+        text-align:justify;
+    }
+    /* cv profile section */
+    /* skills section */
+    #skills div p, #skills div div div{
+        font-size: 0.9em;
+    }
+    /* skills section */
+    /* download section */
+    .download a{
+        text-decoration: none;
+    }
+    /* download section */
+</style>
+</head>
+<body>
+    
+</body>
+</html>
+<div class="container col-lg-8 border border-dark-subtle rounded-2">
+    <div class="row pt-1 rounded-2 px-5" style="background-color: var(--headerbg);">
+        <div class="header-picture col-md-4 col-11 pe-md-5 mx-md-auto">
+            <img src="./images/Kiru.jpg" class=" img-fluid" style="min-height: 200px; min-width: 200px;"  alt="">
+        </div>
+        <div class="col-md-8 col-12 ps-md-5 pe-0">
+            <p class=" display-5 fw-bold pt-0 mb-0">Kirubel</p>
+            <p class=" display-4 fw-lighter pt-0 mb-0" style="color: var(--themecolor);">Abiyu</p>
+            <div class="hstack d-flex flex-wrap">
+                <div class="col-lg-4 col-11"> <i class="fa-solid fa-check"></i> Data Analyst</div>
+                <div class="col-lg-4 col-11"><i class="fa-solid fa-check"></i> Web Developer</div>
+                <div class="col-lg-4 col-11"><i class="fa-solid fa-check"></i> Data Scientist</div>
+              </div>
+            <p class=" fw-lighter mb-0">  </p>
+            <hr class="col-3 my-2"> 
+                <!-- or do it with div -->
+            <div class="contact-detail container-fluid d-flex flex-wrap py-3" style="background-color: var(--themecolor);">
+                <div class="col-lg-6 col-12 d-flex">
+                    <div class=" col-3 text-white align-items-center justify-content-center d-flex">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="col-sm-9 text-white">
+                        <p>Phone</p>
+                        <p>+251-927-940-243</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 d-flex">
+                    <div class=" col-3 text-white align-items-center justify-content-center d-flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class=" col-9 text-white">
+                        <p>Adress</p>
+                        <p>Addis Ababa, Ethiopia</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 d-flex">
+                    <div class=" col-3 text-white align-items-center justify-content-center d-flex">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class=" col-9 text-white">
+                        <p>Email:</p>
+                        <p>
+                            <a href="mailto:kiruabiyu@gmail.com">kiruabiyu@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 d-flex">
+                    <div class=" col-3 text-white align-items-center justify-content-center d-flex">
+                        <i class="bi bi-browser-chrome"></i>
+                    </div>
+                    <div class=" col-9 text-white">
+                        <p>Website <i class="bi bi-arrow-down-square-fill" style="font-size: 1em;"></i></p>
+                        <p style="text-overflow: clip;"><a href="https://kirubel-the-student.github.io/personal/" target="_blank">Visit me here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile-section row bg-body mt-5 pe-0 d-flex justify-content-center">
+        <div class="row justify-content-evenly">
+            <div class="col-md-5 rounded-2 position-relative mb-5 mb-md-0" style="background-color: var(--bodybg);">
+                <p class=" mt-4 text-justify">A burgeoning Data Scientist with foundation in Electrical and Commuication Engineering. Currently enriching my skill set at ALX Africa. I am also adept at constructing websites utilizing HTML, CSS, JavaScript, Bootstrap, and Sass. My analytical acumen is evidenced by successful data analysis projects employing Power BI, SQL, and Python.</p>
+                <p>My ethos are hardwork, unwavering commitment, and an insatiable appetite for learning and thriving in dynamic environments.</p>
+                <p class="text-center">
+                    <i style="color: var(--themecolor);">Always up for the challenge!</i>
+                </p>
+                
+                <p class="col-lg-6 col-8 rounded-5 abs-center py-1" style="background-color: var(--themecolor);"><i class="fa-regular fa-circle-user" style="color: white;"></i> <span class=" fw-bold text-white">Profile:</span></p>
+            </div>
+            <div class="col-md-5 rounded-2 position-relative" style="background-color: var(--bodybg);">
+                <div class="text-center mt-4">
+                    <h6 class="fw-bold">Bahir Dar University</h6>
+                    <div class="d-flex justify-content-between">
+                        <i>B. Sc. Electrical Engineering</i> <i>2010</i>
+                    </div>
+                    <p>Foundations of electrical engineering with some forgettable and even fewer unforgottable people.</p>
+                </div>
+                <div class="text-center mt-3">
+                    <h6 class="fw-bold">Adama Science and Technology University</h6>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <i>M. Sc. Communication Engineering</i> <i>2019</i>
+                    </div>
+                    <p class="">Not a bad job at all! Working full time, learning full time, did my thesis with almost zero advisory and claimed the high scoring graduation award!</p>
+                         <p style="color: var(--themecolor);">Quite the experience!</p>
+                </div>
+                <p class="col-lg-6 col-8 rounded-5 abs-center py-1" style="background-color: var(--themecolor);"><i style="color: white;" class="fa-solid fa-graduation-cap"></i> <span class=" fw-bold text-white">Education:</span></p>
+            </div>
+        </div>
+        <div class="row justify-content-evenly mt-5">
+            <div class="col-md-5 px-0">
+                <div class="position-relative rounded-2 border border-white px-3 mb-5" style="background-color: var(--bodybg);">
+                    <p class="mt-4"> <i>
+                        Check these works of mine!
+                    </i></p>
+                    <div class="mt-0 border border-white-subtle rounded-1 shadow-sm mb-3">
+                        <p>My personal website: <a href="https://kirubel-the-student.github.io/personal/">hosted on github</a></p>
+                        <p>Website for a client: <a href="https://kirubel-the-student.github.io/estifanos/index.html">Click here</a></p>
+                    </div>
+                    <div class=" border border-white-subtle rounded-1 shadow-sm mb-3">
+                        <p>Water Crisis Data Analysis: <a href="https://docs.google.com/document/d/1ia6Jqx1v5qNgyP-rR4fWiqBPkmjSej0QJaL-21bkRWI/edit?usp=sharing">Gooogle docs</a></p>
+                        <i>...more will follow soon.</i>
+                    </div>
+                    <p class="col-lg-6 col-8 rounded-5 abs-center py-1" style="background-color: var(--themecolor);"><i class="fa-solid fa-info" style="color: white;"></i> <span class=" fw-bold text-white">Work Proof:</span></p>
+                </div>
+                <div id="skills" class="position-relative rounded-2 px-3 d-flex flex-wrap mb-5 mb-md-0" style="background-color: var(--bodybg);">
+                    <div class="mt-4 col-lg-6 col-6">
+                        <p class="fw-bold mb-0">Data Analysis</p>
+                        <div class="py-1 col-md-7 col-4" style="background: linear-gradient(to right, var(--themecolor), var(--bodybg) );"></div>
+                        <div class="fw-lighter">
+                            <div>SQL</div>
+                            <div>PowerBI</div>
+                            <div>Sheets</div>
+                            <div>Python</div>
+                        </div>
+                    </div> 
+                    <div class="mt-4 col-lg-6 col-6">
+                        <p class="fw-bold mb-0">Web Dev</p>
+                        <div class="py-1 col-md-7 col-4" style="background: linear-gradient(to right, var(--themecolor), var(--bodybg) );"></div>
+                        <div class="fw-lighter">
+                            <div>HTML</div>
+                            <div>CSS</div>
+                            <div>JavaScript</div>
+                            <div>Bootstrap</div>
+                        </div>
+                    </div> 
+                    <div class="mt-4 col-lg-6 col-6">
+                        <p class="fw-bold mb-0">ML--Python</p>
+                        <div class="py-1 col-md-7 col-4" style="background: linear-gradient(to right, var(--themecolor), var(--bodybg) );"></div>
+                        <div class="fw-lighter">
+                            <div>pandas</div>
+                            <div>numpy</div>
+                            <div>sklearn</div>
+                            <div>metrics</div>
+                        </div>
+                    </div> 
+                    <div class="mt-4 col-lg-6 col-6">
+                        <p class="fw-bold mb-0">Sharing</p>
+                        <div class="py-1 col-md-7 col-4" style="background: linear-gradient(to right, var(--themecolor), var(--bodybg) );"></div>
+                        <div class="fw-lighter">
+                            <div>Teaching</div>
+                            <div>Training</div>
+                            <div>Presenting</div>
+                            <!-- <div>metrics</div> -->
+                        </div>
+                    </div> 
+                    <p class="col-lg-6 col-8 rounded-5 abs-center py-1" style="background-color: var(--themecolor);"><i class="fa-solid fa-layer-group" style="color: white;"></i> <span class=" fw-bold text-white">Skills:</span></p>
+                </div>
+            </div>
+            <div class="col-md-5 rounded-2 position-relative" style="background-color: var(--bodybg);">
+                <div class="mt-4">
+                    <p class="fw-bold mb-0">Solomon Kore</p>
+                    <div class="d-flex justify-content-between">
+                        <i>Advisor at GIZ InS</i> <i></i>
+                    </div>
+                    <p class=" mb-0"><a href="mailto:solomon.kore@gmail.com">solomon.kore@gmail.com</a></p>
+                    <p>Tel: +251-911-473-450</p>
+                </div>
+                <div class="mt-4">
+                    <p class="fw-bold mb-0">Bitseat Tadesse</p>
+                    <div class="d-flex justify-content-between">
+                        <i>Data Analyst at IOHK</i> <i></i>
+                    </div>
+                    <p class=" mb-0"><a href="mailto:bitseatt@gmail.com">bitseatt@gmail.com</a></p>
+                    <p>Tel: +251-937-949-501</p>
+                </div>
+                <div class="mt-4">
+                    <p class="fw-bold mb-0">Dr. Avtar Signh</p>
+                    <div class="d-flex justify-content-between">
+                        <i>Ass. Prof at Adama University</i> <i></i>
+                    </div>
+                    <p class=" mb-0"><a href="mailto:avtarsinghvlsi@gmail.com">avtarsinghvlsi@gmail.com</a></p>
+                    <p>Tel: +251-936-210-013</p>
+                </div>
+                <p class="col-lg-6 col-8 rounded-4 abs-center py-1" style="background-color: var(--themecolor);"><i class="fa-solid fa-asterisk" style="color: white;"></i> <span class=" fw-bold text-white">References:</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="download my-5 d-flex justify-content-center">
+        <a class="py-3 rounded-5 px-2 shadow-sm" href="./file/Kiru's resume.pdf" download style="background-color: var(--bodybg);">Download Resume in PDF</a>
+    </div>
+</div>
